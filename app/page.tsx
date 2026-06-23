@@ -68,10 +68,10 @@ export default function Home() {
             <div className="grid grid-cols-2 gap-3">
               <div className="relative col-span-2 h-64 img-zoom overflow-hidden">
                 <Image
-                  src="/images/galeria/Espacio.jpg"
-                  alt="Espacio del restaurante"
+                  src="/images/nosotros/bruno3.jpeg"
+                  alt="Bruno"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="(max-width:768px) 100vw, 50vw"
                 />
               </div>
@@ -162,16 +162,16 @@ export default function Home() {
               <Image src="/images/galeria/Chill.jpg" alt="Ambiente" fill className="object-cover" sizes="66vw" />
             </div>
             <div className="relative h-56 md:h-72 img-zoom overflow-hidden">
-              <Image src="/images/galeria/Michis.jpg" alt="Mascotas" fill className="object-cover" sizes="33vw" />
+              <Image src="/images/caracteristicas/petfriendly.jpg" alt="Espacio pet friendly" fill className="object-cover" sizes="33vw" />
             </div>
             <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
-              <Image src="/images/galeria/Time.jpg" alt="Momentos" fill className="object-cover" sizes="33vw" />
+              <Image src="/images/caracteristicas/amorincondicional.jpg" alt="Amor incondicional" fill className="object-cover" sizes="33vw" />
             </div>
             <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
               <Image src="/images/galeria/Coffee.jpg" alt="Gastronomía" fill className="object-cover" sizes="33vw" />
             </div>
             <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
-              <Image src="/images/galeria/Espacio.jpg" alt="Espacio" fill className="object-cover" sizes="33vw" />
+              <Image src="/images/caracteristicas/postres.jpg" alt="Postres artesanales" fill className="object-cover" sizes="33vw" />
             </div>
           </div>
           <div className="text-center mt-8">

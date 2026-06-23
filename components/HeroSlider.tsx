@@ -4,9 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const slides = [
-  { src: '/images/hero/hero.jpg',       alt: 'Patitas Social Club' },
-  { src: '/images/galeria/Chill.jpg',   alt: 'Ambiente y experiencia' },
-  { src: '/images/galeria/Espacio.jpg', alt: 'Nuestro espacio' },
+  { src: '/images/slider/1.jpg', alt: 'Patitas Social Club' },
+  { src: '/images/slider/2.jpg', alt: 'Ambiente y experiencia' },
+  { src: '/images/slider/3.jpg', alt: 'Nuestro espacio' },
+  { src: '/images/slider/4.jpg', alt: 'Momentos especiales' },
+  { src: '/images/slider/5.jpg', alt: 'Para toda la familia' },
 ]
 
 const INTERVAL = 7000
@@ -78,7 +80,7 @@ export default function HeroSlider() {
         </div>
       </div>
 
-      {/* ── Indicadores visuales (solo posición) ──────────────── */}
+      {/* ── Indicadores visuales ──────────────────────────────── */}
       <div className="hero-scroll absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2.5 pointer-events-none">
         {slides.map((_, i) => (
           <span
@@ -90,7 +92,7 @@ export default function HeroSlider() {
         ))}
       </div>
 
-      {/* Barra de progreso inferior */}
+      {/* Barra de progreso */}
       <div className="absolute bottom-0 inset-x-0 h-px bg-light/10 z-20 overflow-hidden">
         <div
           key={current}

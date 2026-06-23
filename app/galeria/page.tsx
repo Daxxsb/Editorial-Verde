@@ -19,8 +19,34 @@ export default function Galeria() {
         </div>
       </section>
 
-      {/* ── El espacio ──────────────────────────────────────────────── */}
+      {/* ── Experiencias — caracteristicas (prioridad) ───────────────── */}
       <section className="bg-paper py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <AnimateIn>
+            <p className="text-copper text-xs tracking-[0.35em] uppercase mb-8">Nuestra experiencia</p>
+          </AnimateIn>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+            {[
+              { src: '/images/caracteristicas/petfriendly.jpg',      alt: 'Espacio pet friendly' },
+              { src: '/images/caracteristicas/postres.jpg',           alt: 'Postres artesanales' },
+              { src: '/images/caracteristicas/amorincondicional.jpg', alt: 'Amor incondicional' },
+            ].map(({ src, alt }, i) => (
+              <AnimateIn key={src} delay={i * 80}>
+                <div className="relative h-80 md:h-96 img-zoom overflow-hidden">
+                  <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width:768px) 100vw, 33vw" />
+                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-forest/65 to-transparent p-5">
+                    <p className="text-paper text-xs tracking-[0.25em] uppercase font-medium">{alt}</p>
+                  </div>
+                </div>
+              </AnimateIn>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── El espacio ──────────────────────────────────────────────── */}
+      <section className="bg-light py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <AnimateIn>
             <p className="text-copper text-xs tracking-[0.35em] uppercase mb-8">El espacio</p>
@@ -28,19 +54,18 @@ export default function Galeria() {
 
           <div className="grid grid-cols-3 gap-3 mb-3">
             <AnimateIn className="col-span-2">
-              <div className="relative h-80 img-zoom overflow-hidden">
+              <div className="relative h-72 img-zoom overflow-hidden">
                 <Image
                   src="/images/galeria/Espacio.jpg"
                   alt="Salón principal de Patitas Social Club"
                   fill
                   className="object-cover"
                   sizes="66vw"
-                  priority
                 />
               </div>
             </AnimateIn>
-            <AnimateIn delay={100}>
-              <div className="relative h-80 img-zoom overflow-hidden">
+            <AnimateIn delay={90}>
+              <div className="relative h-72 img-zoom overflow-hidden">
                 <Image
                   src="/images/galeria/Chill.jpg"
                   alt="Ambiente relajado"
@@ -55,10 +80,10 @@ export default function Galeria() {
           <div className="grid grid-cols-3 gap-3">
             {[
               { src: '/images/galeria/Relax.jpg',  alt: 'Área de relax' },
-              { src: '/images/galeria/Time.jpg',   alt: 'Momentos especiales' },
-              { src: '/images/galeria/Coffee.jpg', alt: 'Gastronomía y bebidas' },
+              { src: '/images/galeria/Coffee.jpg',  alt: 'Gastronomía y bebidas' },
+              { src: '/images/galeria/Time.jpg',    alt: 'Momentos especiales' },
             ].map(({ src, alt }, i) => (
-              <AnimateIn key={src} delay={i * 80}>
+              <AnimateIn key={src} delay={i * 75}>
                 <div className="relative h-52 img-zoom overflow-hidden">
                   <Image src={src} alt={alt} fill className="object-cover" sizes="33vw" />
                 </div>
@@ -69,7 +94,7 @@ export default function Galeria() {
       </section>
 
       {/* ── Mascotas y momentos ─────────────────────────────────────── */}
-      <section className="bg-light py-16 px-6">
+      <section className="bg-paper py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <AnimateIn>
             <p className="text-copper text-xs tracking-[0.35em] uppercase mb-8">Mascotas y momentos</p>
@@ -77,12 +102,12 @@ export default function Galeria() {
 
           <div className="grid grid-cols-2 gap-3">
             <AnimateIn>
-              <div className="relative h-72 md:h-96 img-zoom overflow-hidden">
+              <div className="relative h-[420px] img-zoom overflow-hidden">
                 <Image
-                  src="/images/nosotros/bruno.jpeg"
+                  src="/images/nosotros/bruno3.jpeg"
                   alt="Bruno"
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   sizes="50vw"
                 />
                 <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-forest/60 to-transparent p-6">
@@ -92,7 +117,7 @@ export default function Galeria() {
               </div>
             </AnimateIn>
             <AnimateIn delay={100}>
-              <div className="relative h-72 md:h-96 img-zoom overflow-hidden">
+              <div className="relative h-[420px] img-zoom overflow-hidden">
                 <Image
                   src="/images/galeria/Michis.jpg"
                   alt="Mascotas en Patitas Social Club"

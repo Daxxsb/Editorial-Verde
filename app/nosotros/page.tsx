@@ -67,26 +67,15 @@ export default function Nosotros() {
             </AnimateIn>
 
             <AnimateIn delay={150}>
-              <div className="space-y-3">
-                <div className="relative h-[420px] img-zoom overflow-hidden">
-                  <Image
-                    src="/images/nosotros/bruno.jpeg"
-                    alt="Bruno, el inspirador de Patitas Social Club"
-                    fill
-                    className="object-cover"
-                    sizes="(max-width:768px) 100vw, 50vw"
-                    priority
-                  />
-                </div>
-                <div className="relative h-48 img-zoom overflow-hidden">
-                  <Image
-                    src="/images/galeria/Espacio.jpg"
-                    alt="Espacio de Patitas Social Club"
-                    fill
-                    className="object-cover"
-                    sizes="(max-width:768px) 100vw, 50vw"
-                  />
-                </div>
+              <div className="relative h-[560px] img-zoom overflow-hidden">
+                <Image
+                  src="/images/nosotros/bruno3.jpeg"
+                  alt="Bruno, el inspirador de Patitas Social Club"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width:768px) 100vw, 50vw"
+                  priority
+                />
               </div>
             </AnimateIn>
           </div>
