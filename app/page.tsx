@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AnimateIn from '@/components/AnimateIn'
 import HeroSlider from '@/components/HeroSlider'
+import HomeGalleryPreview from '@/components/HomeGalleryPreview'
 
 const marqueeItems = [
   'Restaurante Pet Friendly',
@@ -149,41 +150,7 @@ export default function Home() {
       </section>
 
       {/* ── Galería preview ──────────────────────────────────────────── */}
-      <section className="bg-light py-20 px-6">
-        <div className="max-w-6xl mx-auto">
-          <AnimateIn>
-            <p className="text-copper text-xs tracking-[0.35em] uppercase mb-2 text-center">Galería</p>
-            <h2 className="font-display text-forest text-3xl md:text-4xl font-bold text-center mb-10">
-              Momentos que <span className="italic">se quedan.</span>
-            </h2>
-          </AnimateIn>
-          <div className="grid grid-cols-3 gap-2 md:gap-3">
-            <div className="relative col-span-2 h-56 md:h-72 img-zoom overflow-hidden">
-              <Image src="/images/galeria/Chill.jpg" alt="Ambiente" fill className="object-cover" sizes="66vw" />
-            </div>
-            <div className="relative h-56 md:h-72 img-zoom overflow-hidden">
-              <Image src="/images/caracteristicas/petfriendly.jpg" alt="Espacio pet friendly" fill className="object-cover" sizes="33vw" />
-            </div>
-            <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
-              <Image src="/images/caracteristicas/amorincondicional.jpg" alt="Amor incondicional" fill className="object-cover" sizes="33vw" />
-            </div>
-            <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
-              <Image src="/images/galeria/Coffee.jpg" alt="Gastronomía" fill className="object-cover" sizes="33vw" />
-            </div>
-            <div className="relative h-40 md:h-48 img-zoom overflow-hidden">
-              <Image src="/images/caracteristicas/postres.jpg" alt="Postres artesanales" fill className="object-cover" sizes="33vw" />
-            </div>
-          </div>
-          <div className="text-center mt-8">
-            <Link
-              href="/galeria"
-              className="text-forest text-sm font-medium border-b border-copper pb-0.5 hover:text-copper transition-colors duration-200"
-            >
-              Ver galería completa →
-            </Link>
-          </div>
-        </div>
-      </section>
+      <HomeGalleryPreview />
 
       {/* ── CTA final ────────────────────────────────────────────────── */}
       <section className="bg-sage py-24 px-6 text-center relative overflow-hidden">

@@ -100,6 +100,18 @@ body {
   width: 100%;
 }
 
+/* ── Lightbox ─────────────────────────────────────────────── */
+@keyframes lightboxIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes lightboxImageIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.lightbox-enter  { animation: lightboxIn      0.22s ease both; }
+.lightbox-img-in { animation: lightboxImageIn 0.28s cubic-bezier(0.22,1,0.36,1) both; }
+
 /* ── Custom scrollbar ─────────────────────────────────────── */
 ::-webkit-scrollbar        { width: 4px; }
 ::-webkit-scrollbar-track  { background: transparent; }
