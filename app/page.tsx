@@ -71,7 +71,7 @@ export default function Home() {
                   src="/images/nosotros/bruno3.jpeg"
                   alt="Bruno"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-center"
                   sizes="(max-width:768px) 100vw, 50vw"
                 />
               </div>
@@ -80,16 +80,16 @@ export default function Home() {
                   src="/images/nosotros/bruno.jpeg"
                   alt="Bruno"
                   fill
-                  className="object-cover"
+                  className="object-cover object-center"
                   sizes="25vw"
                 />
               </div>
               <div className="relative h-44 img-zoom overflow-hidden">
                 <Image
-                  src="/images/galeria/Relax.jpg"
-                  alt="Momentos de relax"
+                  src="/images/nosotros/bruno2.jpeg"
+                  alt="Bruno"
                   fill
-                  className="object-cover"
+                  className="object-cover object-center"
                   sizes="25vw"
                 />
               </div>
