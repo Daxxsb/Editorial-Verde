@@ -132,10 +132,9 @@ export default function Home() {
                   key={item}
                   className="bg-forest p-5 border border-sage/20 hover:border-copper/50 group transition-colors duration-300 cursor-default"
                 >
-                  <p className="font-display text-paper text-sm font-semibold mb-1 group-hover:text-copper transition-colors duration-300">
+                  <p className="font-display text-paper text-sm font-semibold group-hover:text-copper transition-colors duration-300">
                     {item}
                   </p>
-                  <p className="text-light/35 text-xs tracking-wide">Ver carta →</p>
                 </div>
               ))}
             </div>
