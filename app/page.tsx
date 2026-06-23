@@ -71,7 +71,8 @@ export default function Home() {
                   src="/images/nosotros/bruno3.jpeg"
                   alt="Bruno"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover"
+                  style={{ objectPosition: '50% 20%' }}
                   sizes="(max-width:768px) 100vw, 50vw"
                 />
               </div>
