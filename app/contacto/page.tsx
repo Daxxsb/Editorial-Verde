@@ -10,7 +10,7 @@ export default function Contacto() {
     const form = e.currentTarget
     const data = new FormData(form)
     try {
-      const res = await fetch('https://formspree.io/f/XXXXXXXX', {
+      const res = await fetch('https://formspree.io/f/mojovobb', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
@@ -120,7 +120,7 @@ export default function Contacto() {
             <div className="border-l-2 border-sage pl-6">
               <p className="text-copper text-[10px] tracking-[0.3em] uppercase mb-3 font-medium">WhatsApp</p>
               <a
-                href="https://wa.me/573000000000"
+                href="https://wa.me/573143622963"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-forest text-paper text-sm font-semibold px-6 py-3 tracking-[0.08em] uppercase hover:bg-copper hover:text-forest transition-colors duration-300"

@@ -51,7 +51,7 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/573143622963"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-forest text-paper text-[11px] font-semibold px-5 py-2.5 tracking-[0.12em] uppercase hover:bg-copper transition-colors duration-300"
@@ -89,7 +89,7 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/573143622963"
             target="_blank"
             rel="noopener noreferrer"
             className="text-forest text-sm font-semibold tracking-wide"

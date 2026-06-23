@@ -63,7 +63,7 @@ export default function Footer() {
               @patitassocialclub
             </a>
             <a
-              href="https://wa.me/573000000000"
+              href="https://wa.me/573143622963"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block border border-copper/40 text-copper text-[11px] px-5 py-2.5 tracking-[0.15em] uppercase hover:bg-copper hover:text-forest transition-all duration-300"

@@ -168,7 +168,7 @@ export default function Home() {
           </h2>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://wa.me/573000000000"
+              href="https://wa.me/573143622963"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-forest text-paper font-semibold px-9 py-3.5 text-sm tracking-[0.1em] uppercase hover:bg-dark transition-colors duration-300"

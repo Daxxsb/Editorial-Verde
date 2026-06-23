@@ -141,27 +141,40 @@ export default function Nosotros() {
         <div className="max-w-6xl mx-auto">
           <div className="border-t-2 border-forest pt-10">
             <p className="text-copper text-xs tracking-[0.35em] uppercase mb-8 font-medium">Información académica</p>
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
               <div className="bg-paper p-6 border-l-2 border-forest">
-                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Autores</p>
-                <p className="text-dark text-sm font-medium leading-relaxed">
-                  Lizeth Poveda Alonso<br />Erik Santiago Cubillos Páez
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Presentado por</p>
+                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                  Erik Santiago Cubillos Páez
                 </p>
+                <p className="text-dark/50 text-xs">Lizeth Poveda Alonso</p>
               </div>
+
               <div className="bg-paper p-6 border-l-2 border-copper">
-                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Institución</p>
-                <p className="text-dark text-sm font-medium leading-relaxed">
-                  UTH Florida University<br />
-                  <span className="text-dark/55 text-xs">2650 SW 27th Ave, Miami, FL</span>
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Institución</p>
+                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                  UTH Florida University
                 </p>
+                <p className="text-dark/50 text-xs">2650 SW 27th Ave, Suite 300<br />Miami, FL 33133</p>
               </div>
+
               <div className="bg-paper p-6 border-l-2 border-sage">
-                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Curso y fecha</p>
-                <p className="text-dark text-sm font-medium leading-relaxed">
-                  Informática Aplicada<br />
-                  <span className="text-dark/55 text-xs">Trabajo Final · 2025</span>
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Curso y entrega</p>
+                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                  Informática Aplicada
                 </p>
+                <p className="text-dark/50 text-xs">Trabajo Final · 2026</p>
               </div>
+
+              <div className="bg-paper p-6 border-l-2 border-muted">
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Tecnología usada</p>
+                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                  Next.js 16 + TypeScript
+                </p>
+                <p className="text-dark/50 text-xs">Tailwind CSS 4 · Vercel Deploy</p>
+              </div>
+
             </div>
           </div>
         </div>

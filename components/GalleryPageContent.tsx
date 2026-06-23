@@ -137,7 +137,7 @@ export default function GalleryPageContent() {
             Etiquétanos en tus fotos y aparece en nuestra galería
           </p>
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/573143622963"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border border-copper/50 text-copper text-xs px-6 py-3 tracking-[0.15em] uppercase hover:bg-copper hover:text-forest transition-all duration-300"
