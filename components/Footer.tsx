@@ -54,7 +54,14 @@ export default function Footer() {
           {/* Social */}
           <div>
             <p className="text-copper text-[10px] tracking-[0.28em] uppercase mb-5 font-medium">Síguenos</p>
-            <p className="font-display italic text-light/55 text-sm mb-5">@patitassocialclub</p>
+            <a
+              href="https://instagram.com/patitassocialclub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block font-display italic text-light/55 text-sm mb-5 hover:text-copper transition-colors duration-200"
+            >
+              @patitassocialclub
+            </a>
             <a
               href="https://wa.me/573000000000"
               target="_blank"

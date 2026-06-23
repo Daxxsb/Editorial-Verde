@@ -129,6 +129,18 @@ export default function Contacto() {
               </a>
             </div>
 
+            <div className="border-l-2 border-muted pl-6">
+              <p className="text-copper text-[10px] tracking-[0.3em] uppercase mb-2 font-medium">Redes sociales</p>
+              <a
+                href="https://instagram.com/patitassocialclub"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-dark text-sm hover:text-forest transition-colors duration-200"
+              >
+                Instagram — @patitassocialclub
+              </a>
+            </div>
+
             <div className="border-l-2 border-light pl-6">
               <p className="text-copper text-[10px] tracking-[0.3em] uppercase mb-2 font-medium">Trabaja con nosotros</p>
               <p className="text-dark/55 text-sm mb-1">Envía tu hoja de vida a</p>

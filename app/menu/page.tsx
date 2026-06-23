@@ -35,6 +35,16 @@ const perritos = [
     { n: 'Torta "Patitas de Fiesta"', d: 'Pastel personalizado para cumpleaños.' },
     { n: 'Box Cumpleañero',           d: 'Pupcake + Helado + Galletitas + Pañoleta + Foto Polaroid.' },
   ]},
+  { cat: 'Postres de la Casa', items: [
+    { n: 'Sundae "Happy Tail"',      d: 'Helado artesanal con toppings naturales.' },
+    { n: 'Parfait "Huellitas Dulces"', d: 'Yogur natural, frutas frescas y granola apta para perros.' },
+    { n: 'Waffles "Patitas"',        d: 'Mini waffles con banano y mantequilla de maní.' },
+  ]},
+  { cat: 'Bebidas Saludables', items: [
+    { n: 'Té "Patitas Relax"',      d: 'Infusión de manzanilla, suave y relajante.' },
+    { n: 'Smoothie "Perrito Fit"',  d: 'Zanahoria, manzana y agua de coco. Refrescante y nutritivo.' },
+    { n: '"Blue Paw"',              d: 'Batido de arándanos y yogur natural.' },
+  ]},
 ]
 
 const humanos = [

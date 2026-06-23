@@ -137,10 +137,33 @@ export default function Nosotros() {
       </section>
 
       {/* ── Datos académicos ────────────────────────────────────────── */}
-      <section className="bg-forest py-10 px-6">
-        <div className="max-w-6xl mx-auto flex flex-wrap gap-6 justify-between items-center">
-          <p className="text-light/40 text-xs">Lizeth Poveda Alonso · Erik Santiago Cubillos Páez</p>
-          <p className="text-light/40 text-xs">UTH Florida University · Informática Aplicada · 2025</p>
+      <section className="bg-light py-16 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="border-t-2 border-forest pt-10">
+            <p className="text-copper text-xs tracking-[0.35em] uppercase mb-8 font-medium">Información académica</p>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-paper p-6 border-l-2 border-forest">
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Autores</p>
+                <p className="text-dark text-sm font-medium leading-relaxed">
+                  Lizeth Poveda Alonso<br />Erik Santiago Cubillos Páez
+                </p>
+              </div>
+              <div className="bg-paper p-6 border-l-2 border-copper">
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Institución</p>
+                <p className="text-dark text-sm font-medium leading-relaxed">
+                  UTH Florida University<br />
+                  <span className="text-dark/55 text-xs">2650 SW 27th Ave, Miami, FL</span>
+                </p>
+              </div>
+              <div className="bg-paper p-6 border-l-2 border-sage">
+                <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">Curso y fecha</p>
+                <p className="text-dark text-sm font-medium leading-relaxed">
+                  Informática Aplicada<br />
+                  <span className="text-dark/55 text-xs">Trabajo Final · 2025</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
