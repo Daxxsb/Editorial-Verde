@@ -145,10 +145,9 @@ export default function Nosotros() {
 
               <div className="bg-paper p-6 border-l-2 border-forest">
                 <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Presentado por</p>
-                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                <p className="text-dark text-sm font-semibold leading-relaxed">
                   Erik Santiago Cubillos Páez
                 </p>
-                <p className="text-dark/50 text-xs">Lizeth Poveda Alonso</p>
               </div>
 
               <div className="bg-paper p-6 border-l-2 border-copper">
