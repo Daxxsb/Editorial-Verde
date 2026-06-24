@@ -152,26 +152,23 @@ export default function Nosotros() {
 
               <div className="bg-paper p-6 border-l-2 border-copper">
                 <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Institución</p>
-                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                <p className="text-dark text-sm font-semibold leading-relaxed">
                   UTH Florida University
                 </p>
-                <p className="text-dark/50 text-xs">2650 SW 27th Ave, Suite 300<br />Miami, FL 33133</p>
               </div>
 
               <div className="bg-paper p-6 border-l-2 border-sage">
                 <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Curso y entrega</p>
-                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
+                <p className="text-dark text-sm font-semibold leading-relaxed">
                   Informática Aplicada
                 </p>
-                <p className="text-dark/50 text-xs">Trabajo Final · 2026</p>
               </div>
 
               <div className="bg-paper p-6 border-l-2 border-muted">
                 <p className="text-forest text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">Tecnología usada</p>
-                <p className="text-dark text-sm font-semibold leading-relaxed mb-1">
-                  Next.js 16 + TypeScript
+                <p className="text-dark text-sm font-semibold leading-relaxed">
+                  Next.js 16 + TypeScript<br />Tailwind CSS 4 · Vercel Deploy
                 </p>
-                <p className="text-dark/50 text-xs">Tailwind CSS 4 · Vercel Deploy</p>
               </div>
 
             </div>
