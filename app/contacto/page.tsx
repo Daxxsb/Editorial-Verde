@@ -10,7 +10,7 @@ export default function Contacto() {
     const form = e.currentTarget
     const data = new FormData(form)
     try {
-      const res = await fetch('https://formspree.io/f/mojovobb', {
+      const res = await fetch('https://formspree.io/f/mpqgqloe', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
