@@ -154,18 +154,6 @@ export default function Contacto() {
           </div>
         </div>
       </section>
-
-      {/* ── Mapa placeholder ────────────────────────────────────────── */}
-      <section className="bg-light py-4 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="h-64 bg-sage/15 flex items-center justify-center border border-sage/20">
-            <span className="text-muted/60 italic text-sm text-center px-4">
-              mapa — Ak. 58 #127-59, CC Bulevar Niza, Bogotá
-            </span>
-          </div>
-        </div>
-      </section>
-
     </main>
   )
 }
